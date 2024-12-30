@@ -1,10 +1,10 @@
-package org.david.Graph.DirectedGraph;
+package org.david.Graph.UndirectedGraph;
 
-public class DirectedVertex {
+public class UndirectedVertex {
     private int id;
     private String name;
 
-    public DirectedVertex(int id, String name) {
+    public UndirectedVertex(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -14,7 +14,7 @@ public class DirectedVertex {
     }
 
     public void setId(int id) {
-        this.id = id;
+
     }
 
     public String getName() {
