@@ -1,7 +1,5 @@
 package org.david.Graph.UndirectedGraph;
 
-import org.david.Graph.DirectedGraph.DirectedVertex;
-
 public class UndirectedEdge {
     private UndirectedVertex v1;
     private UndirectedVertex v2;
